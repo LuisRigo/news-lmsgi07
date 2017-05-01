@@ -40,4 +40,4 @@ _**Tasques:**_
 ## Implementación ##
 Se realiza un primer esquema de la idea sobre el papel.
 
-![Imagen de idea_inicial](doc/init.png)
+![Imagen de idea_inicial](doc/init.jpg)
