@@ -38,6 +38,33 @@ _**Tasques:**_
   8. Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives)
   
 ## Implementación ##
+
+### Idea inicial ###
 Se realiza un primer esquema de la idea sobre el papel.
 
 ![Imagen de idea_inicial](doc/init.png)
+
+### Diseño escritorio ###
+Se idea el esquema con varios contenedores el diseño de escritorio.
+
+![Imagen de idea_inicial](doc/design_desktop.jpg)
+
+Despues de este diseño se deriva a la siguiente estructura en el diseño del layout.
+
+Los contenedores son:
+
+ 1. Contenedor Header.
+ 2. Contenedor para los elementos del header. 
+  2.1 Contenedor del título y logo
+  2.2 Contenedor NAV.
+ 3. Contenedor Contenido.
+  3.1. Contenedor Publicaciones / NEWS.
+   3.1.1. Contenedores para cada articulo/noticia.
+  3.2. Contenedor Banners publicidad.
+ 4. Contenedor Footer.
+ 
+Por lo que el Contenedor 1 ocupara todo el ancho de la pantalla. Dentro tendra 2 subcontenedores el cual los porcentajes seran un 70% (logo y título) y 30% el contenedor de navegación.
+
+Contenedor de Contenido se dividirá en 2 columnas. La principal (publicaciones) ocupara el total de la pantalla menos 300 px que seran dedicados al contenedor del banner (en el dispositivo móvil esto cambiará).
+
+Finalmente tenemos el último contenedor que sera el footer. Ocupará toda la pantalla.
