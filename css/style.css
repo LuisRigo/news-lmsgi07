@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans');
+body {
+	/*
+	font-family: 'Baloo', cursive;
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: Arial;
+	*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	
+	background-color: #1C1C1C;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #1C1C1C;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar-brand img{
+	width: 30%;
+}
+
+.jumbotron {
+    background-color: #1C1C1C;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+#logo {
+	width: 10%;
+}
+
+#stats p{
+	margin-top: 15px;
+}
+
+#login {
+
+}
+
+.glyphicon {
+    font-size: 250%;
+    margin-bottom: 20px;
+    color: #B40431;
+    vertical-align: middle;
+}
+
+
+footer {
+	margin-top: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #1C1C1C;
+    color: #fff;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #B40431;
+}
+
+
+@media (min-width: 768px) {
+  .main-container{
+    width: 100%;
+    position: fixed;
+    left: 10;
+  }
+  .advert-container{
+	width: 300px;
+	background-color: #424242;
+	color: #fff;
+	position:fixed;
+	right: 10;
+}
+
+
+
+
+
+
