@@ -21,12 +21,34 @@ nav {
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+    letter-spacing: 2px;
+}
+
+.navbar li {
+    height: 100%;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #B40431 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #B40431 !important;
+}
+
+.navbar-nav li a:focus {
+    color: #B40431;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #B40431 !important;
 }
 
 .navbar-brand img{
 	width: 30%;
+    margin-top: -10px;
 }
 
 .jumbotron {
@@ -34,10 +56,6 @@ nav {
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
-}
-
-#logo {
-	width: 10%;
 }
 
 #stats p{
@@ -70,20 +88,50 @@ footer .glyphicon {
     color: #B40431;
 }
 
+/* Extra Small Devices */
+@media (max-width: 767px) {
+    .main-container{
+        
+    }
 
-@media (min-width: 768px) {
-  .main-container{
-    width: 100%;
-    position: fixed;
-    left: 10;
-  }
-  .advert-container{
-	width: 300px;
-	background-color: #424242;
-	color: #fff;
-	position:fixed;
-	right: 10;
+    .advert-container{
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #fff;
+    }
+
+    .advert-container p{
+        padding-top: 40px;
+        color: #D7DF01;
+    }
+
 }
+
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container{
+        
+    }
+}
+
+/* Medium Devices Desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .main-container{
+        
+    }
+}
+
+/* Medium Devices Desktops */
+@media (min-width: 1200px) {
+    .main-container{
+        
+    }
+}
+
 
 
 
