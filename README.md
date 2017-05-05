@@ -69,4 +69,4 @@ Contenedor de Contenido se dividirá en 2 columnas. La principal (publicaciones)
 
 Finalmente tenemos el último contenedor que sera el footer. Ocupará toda la pantalla.
 
-![Imagen de idea_inicial](doc/esquema final.png)
+![Imagen de idea_inicial](doc/esquema_final.png)
