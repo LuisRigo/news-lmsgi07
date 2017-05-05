@@ -54,13 +54,13 @@ Despues de este diseño se deriva a la siguiente estructura en el diseño del la
 Los contenedores son:
 
  1. Contenedor Header.
- 2. Contenedor para los elementos del header. 
-  2.1 Contenedor del título y logo
-  2.2 Contenedor NAV.
- 3. Contenedor Contenido.
-  3.1. Contenedor Publicaciones / NEWS.
-   3.1.1. Contenedores para cada articulo/noticia.
-  3.2. Contenedor Banners publicidad.
+ 2. Contenedor para los elementos del header:
+   * Contenedor del título y logo.
+   * Contenedor NAV.
+ 3. Contenedor Contenido:
+   * Contenedor Publicaciones / NEWS.
+     * Contenedores para cada articulo/noticia.
+   * Contenedor Banners publicidad.
  4. Contenedor Footer.
  
 Por lo que el Contenedor 1 ocupara todo el ancho de la pantalla. Dentro tendra 2 subcontenedores el cual los porcentajes seran un 70% (logo y título) y 30% el contenedor de navegación.
