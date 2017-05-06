@@ -101,12 +101,14 @@ footer .glyphicon {
         top: 0;
         left: 0;
         height: 90px;
-        background-color: #fff;
+        background-color: #B40431;
     }
 
     .advert-container p{
         padding-top: 40px;
-        color: #D7DF01;
+        color: #000;
+        font-family: Arial;
+        font-weight: bold;
     }
 
 }
@@ -114,23 +116,45 @@ footer .glyphicon {
 /* Small Devices Tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
     .main-container{
-        
+        width: calc(100% - 200px);;
+    }
+
+    .advert-container{
+        width: 200px;
+        background-color: #B40431;
+        float:right;
+        height: 500px;
+    }
+
+    .advert-container p{
+        padding-top: 40px;
+        color: #000;
+        font-family: Arial;
+        font-weight: bold;
     }
 }
 
-/* Medium Devices Desktops */
-@media (min-width: 992px) and (max-width: 1199px) { 
+/* Medium and Large Devices Desktops */
+@media (min-width: 992px) { 
     .main-container{
-        
+        width: calc(100% - 300px);;
+    }
+
+    .advert-container{
+        width: 300px;
+        background-color: #B40431;
+        float:right;
+        height: 500px;
+    }
+
+    .advert-container p{
+        padding-top: 40px;
+        color: #000;
+        font-family: Arial;
+        font-weight: bold;
     }
 }
 
-/* Medium Devices Desktops */
-@media (min-width: 1200px) {
-    .main-container{
-        
-    }
-}
 
 
 
