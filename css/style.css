@@ -82,7 +82,7 @@ nav {
 	margin-bottom: 30px;
 }
 
-.noticias h1 {
+.noticias h1, .noticias h2 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -91,13 +91,26 @@ nav {
 	font-weight: bold;
 }
 
-.noticias h1 a {
+.noticias h2 a {
 	color: #B40431;
 	text-decoration-style: none;
 }
 
-.noticias h1 a:hover {
+.noticias h2 a:hover {
 	color: #fff;
+}
+
+.noticias .datetime{
+	color: #6E6E6E;
+	text-align: right;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.informacion {
+	margin-bottom: 20px;
 }
 
 .btn{

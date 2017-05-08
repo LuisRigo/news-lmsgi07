@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	var scroll_bool = false;
+	var i = 0;
 	/*
 	 * Comprueba si la ventana modifica su tamaño.
 	 * En el caso correcto si el tamñano es menor a 768 píxels se comprueba si esta en el top 
@@ -32,5 +33,38 @@ $(document).ready(function(){
 		}
 	    
 	});
+
+	$("#more-news").click(function(){
+		if (i == 0){
+			cargarJSON(i+1);
+			i++;
+		} else if (i == 1){
+			cargarJSON(i+1);
+			i++;
+		} else {
+			//Do Nothing;
+		}
+	});
+
+	if (($(window).scroll) && (scroll_bool)){
+
+	};
+
+	function cargarJSON(i){
+		fichero = "data/" + i + ".json";
+		$.getJSON( fichero, function( jsonObject ) {
+	        ponerComunidades( jsonObject );
+	    });
+	}
+
+	function ponerComunidades(json){
+     $.each( json, function( j, item ) {
+     	console.log(item.id);
+         //dos formas de hacer lo mismo, la segunda es más adecuada.
+         //$("#comunidades").append( "<option value='" + comunidad.slug + "'>" + comunidad.comunidad + "</option>" );
+         //$('.main-container').append($('<option>', { value: comunidad.slug, text : comunidad.comunidad }));
+         //"slug" es la parte de la url, por si hay que visitar la página de la comunidad (no va con vuestro proyecto, es un ejemplo)
+     }); 
+}
 
 });
