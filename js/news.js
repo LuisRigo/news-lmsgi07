@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+	var scroll_bool = false;
 	/*
 	 * Comprueba si la ventana modifica su tamaño.
 	 * En el caso correcto si el tamñano es menor a 768 píxels se comprueba si esta en el top 
@@ -18,5 +19,18 @@ $(document).ready(function(){
     		}			
 		});	
 	}
+
+	$("#scrolling").click(function(){
+		if (scroll_bool == false) {
+			scroll_bool = true;
+			$(this).html("<span class=\"glyphicon glyphicon-stop\"></span> Desactivar Scrolling");
+			alert("Ha activado el scrolling");
+		} else {
+			scroll_bool = false;
+			$(this).html("<span class=\"glyphicon glyphicon-play\"></span> Activar Scrolling");
+			alert("Ha desactivado el scrolling");
+		}
+	    
+	});
 
 });

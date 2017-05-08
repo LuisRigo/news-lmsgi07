@@ -32,7 +32,12 @@ nav {
     color: #B40431 !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li.active {
+    color: #fff !important;
+    background-color: #FF0040 !important;
+}
+	
+.navbar-nav li a:hover{
     color: #fff !important;
     background-color: #B40431 !important;
 }
@@ -66,13 +71,54 @@ nav {
 
 }
 
-.glyphicon {
+.stats .glyphicon, footer .glyphicon {
     font-size: 250%;
     margin-bottom: 20px;
     color: #B40431;
     vertical-align: middle;
 }
 
+.noticias {
+	margin-bottom: 30px;
+}
+
+.noticias h1 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background-color: #2E2E2E;
+	color: #B40431;
+	font-weight: bold;
+}
+
+.noticias h1 a {
+	color: #B40431;
+	text-decoration-style: none;
+}
+
+.noticias h1 a:hover {
+	color: #fff;
+}
+
+.btn{
+	background-color: #2E2E2E;
+	color: #fff;
+}
+
+.btn:mouseup {
+	background-color: #2E2E2E;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #1C1C1C;
+	color: #B40431;
+}
+
+.btn:focus {
+	background-color: #1C1C1C;
+	color: #fff;
+}
 
 footer {
 	margin-top: 35px;
@@ -87,6 +133,8 @@ footer .glyphicon {
     margin-bottom: 20px;
     color: #B40431;
 }
+
+/* ============ Media Query ============ */
 
 /* Extra Small Devices */
 @media (max-width: 767px) {
@@ -121,13 +169,14 @@ footer .glyphicon {
 
     .advert-container{
         width: 200px;
+        margin-top: 20px;
         background-color: #B40431;
         float:right;
-        height: 500px;
+        //height: 500px;
     }
 
     .advert-container p{
-        padding-top: 40px;
+        padding-top: 10px;
         color: #000;
         font-family: Arial;
         font-weight: bold;
@@ -142,13 +191,14 @@ footer .glyphicon {
 
     .advert-container{
         width: 300px;
+        margin-top: 20px;
         background-color: #B40431;
         float:right;
-        height: 500px;
+        //height: 500px;
     }
 
     .advert-container p{
-        padding-top: 40px;
+        padding-top: 10px;
         color: #000;
         font-family: Arial;
         font-weight: bold;

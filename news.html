@@ -3,14 +3,21 @@
 <head>
 	<title>Imperial News Site</title>
 	<meta charset="utf-8">
+	<meta name="author" content="Ángel Martínez">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta property="og:site_name" content="Imperial News">
+	<meta property="og:url" content="https://rawgit.com/am4rtinez/news-lmsgi07/master/index.html">
+	<meta property="og:title" content="Imperial News">
+	<meta property="og:image" content="img/logo.png">
+	<meta property="og:description" content="Tu sitio de noticias frikis e imperiales">
+	<link rel="icon" type="image/png" href="favicon.ico" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/news.js"></script>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
     		<div class="navbar-header">
@@ -23,6 +30,7 @@
     		</div>
 	    	<div class="collapse navbar-collapse" id="myNavbar">
 	      		<ul class="nav navbar-nav navbar-right">
+	      			<li><a href="#home">Home</a></li>
 	        		<li><a href="#new_1">Noticia 1</a></li>
 	        		<li><a href="#new_2">Noticia 2</a></li>
 	        		<li><a href="#new_3">Noticia 3</a></li>
@@ -31,15 +39,20 @@
   		</div>
 	</nav>
 
-	<header class="jumbotron text-center">
+	<header id="home" class="jumbotron text-center">
 	   	<h1>Imperial News</h1> 
 	   	<p>Tu sitio de noticias frikis!</p> 
 	</header>
 
 	<div class="container text-center">
 		<div class="row">
-			<span class="glyphicon glyphicon-signal"></span>
-			<p>6 noticias en el sitio.</p>
+			<div class="stats col-sd-6 col-md-6 col-lg-6">
+				<span class="glyphicon glyphicon-signal"></span>
+				<p>6 noticias en el sitio.</p>
+			</div>
+			<div class="col-sd-6 col-md-6 col-lg-6">
+				<button id="scrolling" type="button" class="btn"><span class="glyphicon glyphicon-play"></span> Activar Scrolling</button>
+			</div>
 		</div>
 	</div>
 
@@ -52,7 +65,7 @@
 		<div class="main-container">
 			<div id="new_1" class="container-fluid">
 				<section class="noticias">
-					<h1>Noticia 1</h1>
+					<h1><a href="news1.html"> Noticia 1</a></h1>
 					<div class="informacion">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien mi, eleifend at condimentum a, ultricies in eros. Etiam eleifend lectus vel neque finibus malesuada. Etiam vehicula lectus lectus, quis vulputate tortor lobortis non. Aenean sapien odio, suscipit nec metus in, semper consequat nibh. Cras sodales semper mollis. Curabitur egestas velit vitae risus viverra accumsan. Phasellus blandit dui eu ex lobortis pulvinar at vel nibh. Nam laoreet tellus urna, ut faucibus lorem facilisis ac. In molestie tristique auctor. Nulla pharetra turpis non sapien porttitor, vitae ornare leo convallis. Sed eu nisi in eros vehicula auctor vel mattis dui. Sed lectus diam, porttitor id suscipit sit amet, pharetra id nisl. Proin pharetra venenatis leo, ut viverra dui cursus id. Donec vitae cursus augue. Etiam at eros mi. Sed in euismod sapien, nec dignissim nisl.</p>
 
@@ -81,9 +94,10 @@
 				</section>
 			</div>
 		</div>
-		
 	</div>
-	
+	<div id="more-news" class="container text-center">
+		<button type="button" class="btn"><span class="glyphicon glyphicon-plus"></span> Más noticias</button>
+	</div>	
 	<footer class="container-fluid text-center">
   		<a href="#myPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
