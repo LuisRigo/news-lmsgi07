@@ -1,5 +1,29 @@
 [
-	{"id":"new_7","titulo":"Noticia 7","desc":"a","datetime":"04/05/2017 05:00","imgmid":"a","imgbig":"a"},
-	{"id":"new_8","titulo":"Noticia 8","desc":"b","datetime":"05/05/2017 18:00","imgmid":"b","imgbig":"b"},
-	{"id":"new_9","titulo":"Noticia 9","desc":"c","datetime":"06/05/2017 21:00","imgmid":"c","imgbig":"c"}
+   {
+      "id":"new_7",
+      "nav_element":"Noticia 7",
+      "titulo":"Noticia 7",
+      "desc":"a",
+      "datetime":"04/05/2017 05:00",
+      "imgmid":"a",
+      "imgbig":"a"
+   },
+   {
+      "id":"new_8",
+      "nav_element":"Noticia 8",
+      "titulo":"Noticia 8",
+      "desc":"b",
+      "datetime":"05/05/2017 18:00",
+      "imgmid":"b",
+      "imgbig":"b"
+   },
+   {
+      "id":"new_9",
+      "nav_element":"Noticia 9",
+      "titulo":"Noticia 9",
+      "desc":"c",
+      "datetime":"06/05/2017 21:00",
+      "imgmid":"c",
+      "imgbig":"c"
+   }
 ]
