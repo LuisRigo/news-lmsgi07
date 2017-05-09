@@ -3,7 +3,7 @@
 
 	<channel>
 		<title>Imperial News</title>
-		<atom:link href="https://rawgit.com/am4rtinez/news-lmsgi07/master/rss" rel="self" type="application/rss+xml"/>
+		<atom:link href="https://rawgit.com/am4rtinez/news-lmsgi07/master/rss/rss.xml" rel="self" type="application/rss+xml"/>
 		<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
 		<description>Tu sitio de noticias frikis.</description>
 		<language>es-es</language>
