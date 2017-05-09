@@ -10,6 +10,8 @@
 		<category>News</category>
 		<category>Star Wars</category>
 		<copyright>2017 Angel Martinez. All rights reserved.</copyright>
+		<lastBuildDate>Thu, 09 May 2017</lastBuildDate>
+		<webMaster>anglxd@wgmail.com</webMaster>
 		<image>
 			<url>https://rawgit.com/am4rtinez/news-lmsgi07/master/img/logo.png</url>
 			<title>Imperial News</title>
@@ -28,7 +30,7 @@
 			<guid isPermaLink="false">New_2</guid>
 			<title>Todo lo que necesitas saber sobre Star Wars Battlefront II</title>
 			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news2.html</link>
-			<description><![CDATA[ ]]></description>
+			<description><![CDATA[ <p>La llegada de 'Los Últimos Jedi' coincidirá con el 40º aniversario de la saga galáctica por excelencia y tanto Disney como Lucasfilm no repararán en medios para celebrar esta alineación de astros, siendo 'Star Wars Battlefront II' su propuesta estrella para consolas y PC.</p> ]]></description>
 			<category>Star Wars</category>
 			<category>Battlefron II</category>
 		</item>
@@ -36,7 +38,7 @@
 			<guid isPermaLink="false">New_3</guid>
 			<title>Star Wars VIII: Los últimos Jedi - El collar de Luke esconde un secreto (RUMOR)</title>
 			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
-			<description><![CDATA[ ]]></description>
+			<description><![CDATA[ <p>Un nuevo rumor de Star Wars VIII - Los últimos Jedi apunta a un secreto escondido en el collar que lleva Luke Skywalker y que tendría que ver con Darth Vader.</p><p>El teaser tráiler de Star Wars: Episodio VIII - Los últimos Jedi ha reavivado la imaginación de los millones de fans de la saga y también muchos, que digo, muchísimos rumores, por supuesto sin confirmación ninguna.</p> ]]></description>
 			<category>Star Wars</category>
 			<category>Star Wars VIII</category>
 			<category>Los últimos Jedi</category>
