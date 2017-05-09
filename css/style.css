@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans|Roboto');
 body {
 	/*
 	font-family: 'Baloo', cursive;
@@ -78,17 +78,25 @@ nav {
     vertical-align: middle;
 }
 
+.main-container{
+	font-size: 15px;        
+}
+
+
 .noticias {
 	margin-bottom: 30px;
 }
 
+.noticias h1, .noticias h2, .noticias h3, .noticias h4{
+	font-weight: bold;
+}
+
 .noticias h1, .noticias h2 {
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	padding-left: 10px;
 	background-color: #2E2E2E;
 	color: #B40431;
-	font-weight: bold;
 }
 
 .noticias h2 a {
@@ -109,8 +117,38 @@ nav {
 	font-style: italic;
 }
 
+.datetime .glyphicon{
+	color: #B40431;
+}
+
+.noticias .read{
+	text-align: right;
+	margin-top: 10px;
+	padding-right: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.noticias .read a{
+	color: #B40431;
+}
+
 .informacion {
 	margin-bottom: 20px;
+}
+
+.informacion ul li {
+	margin-bottom: 5px;
+}
+
+.declaraciones {
+	font-style: italic;
+	color: #6E6E6E;
+	font-size: 14px;
+}
+
+.imagen, .media {
+	margin-bottom: 10px;
 }
 
 .btn{
@@ -151,10 +189,6 @@ footer .glyphicon {
 
 /* Extra Small Devices */
 @media (max-width: 767px) {
-    .main-container{
-        
-    }
-
     .advert-container{
         width: 100%;
         position: fixed;

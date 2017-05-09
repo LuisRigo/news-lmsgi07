@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 	var scroll_bool = false;
 	var i = 0;
+	var stats = 3;
 	/*
 	 * Comprueba si la ventana modifica su tamaño.
 	 * En el caso correcto si el tamñano es menor a 768 píxels se comprueba si esta en el top 
@@ -93,7 +94,7 @@ $(document).ready(function(){
 		info.attr('class', 'informacion');
 		p.text(item.desc);
 		datetime.attr('class', 'datetime');
-		datetime.text(item.datetime);
+		datetime.html('<span class=\"glyphicon glyphicon-calendar\"></span>' + item.datetime);
 		img.attr('class', 'img-responsive center-block');
 		img.attr('src', item.imgmid);
 
@@ -110,6 +111,10 @@ $(document).ready(function(){
      	a.text(item.nav_element);
      	a.appendTo(li);
      	li.appendTo(".nav");
+
+     	//Modifica el número de noticias visualizadas en el sitio.
+     	stats = stats + 1;
+     	$('.stats').html('<span class=\"glyphicon glyphicon-eye-open\"></span><p>' + stats + ' noticias visualizadas en el sitio.</p>');
 
      }); 
 }
