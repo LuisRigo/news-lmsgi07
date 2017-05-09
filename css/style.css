@@ -101,7 +101,6 @@ nav {
 
 .noticias h2 a {
 	color: #B40431;
-	text-decoration-style: none;
 }
 
 .noticias h2 a:hover {
@@ -152,11 +151,6 @@ nav {
 }
 
 .btn{
-	background-color: #2E2E2E;
-	color: #fff;
-}
-
-.btn:mouseup {
 	background-color: #2E2E2E;
 	color: #fff;
 }
@@ -219,7 +213,6 @@ footer .glyphicon {
         margin-top: 20px;
         background-color: #B40431;
         float:right;
-        //height: 500px;
     }
 
     .advert-container p{
@@ -241,7 +234,6 @@ footer .glyphicon {
         margin-top: 20px;
         background-color: #B40431;
         float:right;
-        //height: 500px;
     }
 
     .advert-container p{

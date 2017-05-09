@@ -71,6 +71,12 @@ Finalmente tenemos el último contenedor que sera el footer. Ocupará toda la pa
 
 ![Imagen de idea_inicial](doc/esquema_final.png)
 
+### Validación de los ficheros con:###
+	* https://validator.w3.org/nu
+	* http://codebeautify.org/jsonvalidator
+	* https://validator.w3.org/feed/
+	* https://jigsaw.w3.org/css-validator/
+
 ### Otros ###
 
 Las noticias han sido obtenidas de los siguientes enlaces:
