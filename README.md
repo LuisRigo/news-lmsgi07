@@ -1,4 +1,4 @@
-# news-lmsgi07 #
+# Proyecto final LMSGI #
 
 Página web de noticias auto rellenable con scroll (Bootstrap, jQuery, Json, HTML).
 
@@ -71,7 +71,13 @@ Finalmente tenemos el último contenedor que sera el footer. Ocupará toda la pa
 
 ![Imagen de idea_inicial](doc/esquema_final.png)
 
-### Validación de los ficheros con:###
+Al proceder a la implementación y revisando el tutorial de Bootstrap en w3schools (https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp) realizo un cambio en la esquematización inicial. Tomando como ejemplo el template de Bootstrap Theme "Company".
+
+Por lo que el diseño deriva al siguiente y se establece como el final:
+
+![Imagen derivacion diseño](doc/IMG_9487.JPG)
+
+### Validación de los ficheros con: ###
 	* https://validator.w3.org/nu
 	* http://codebeautify.org/jsonvalidator
 	* https://validator.w3.org/feed/
