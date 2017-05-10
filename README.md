@@ -63,7 +63,7 @@ Diseño final visualizarlo en https://rawgit.com/am4rtinez/news-lmsgi07/master/n
 ### Banner publicidad ###
 Comprobado que si se tiene un bloqueador de publididad (tipo AdBlock) el elemento del banner no se visualiza.
 
-### Scrolling y botón cargar más noticias###
+### Scrolling y botón cargar más noticias ###
 
 Se habilita un elemento button para Activar el scrolling (tambien desactivar) y cargar más noticias. Realizará 2 cargas. El 1.json y el 2.json.
 
