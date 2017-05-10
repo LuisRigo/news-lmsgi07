@@ -42,6 +42,14 @@ Por lo que el diseño deriva al siguiente y se establece como el final:
 
 ![Imagen derivacion diseño](doc/IMG_9487.JPG)
 
+Una vez ideada la maquetación la genero con visio para tener un documento gráfico.
+
+![Imagen diseño Desktop](doc/DiseñoDesk.png)
+
+![Imagen diseño movil](doc/DiseñoMovScrollnot.png)
+
+![Imagen diseño movil con banner](doc/DiseñoMoovScrolling.png)
+
 ### Validación de los ficheros con: ###
 	* https://validator.w3.org/nu
 	* http://codebeautify.org/jsonvalidator
