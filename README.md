@@ -58,9 +58,16 @@ Cuando el scrolling esté en el top se visualizará el banner de publicidad con 
 
 ![Imagen diseño movil con banner](doc/DiseñoMoovScrolling.png)
 
-### Elementos del código ###
+Diseño final visualizarlo en https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html.
 
-Hay un elemento <NAV> que contiene la barra de navegación (no apunta a enlaces externos, solo el logo) y en el se visualiza el logo (apunta a news.html) y los elementos de las noticias. El elemento sobre el que estemos quedará visualizado en la barra. En el diseño en visio del desktop lo ponedoms visualizar
+### Banner publicidad ###
+Comprobado que si se tiene un bloqueador de publididad (tipo AdBlock) el elemento del banner no se visualiza.
+
+### Scrolling y botón cargar más noticias###
+
+Se habilita un elemento button para Activar el scrolling (tambien desactivar) y cargar más noticias. Realizará 2 cargas. El 1.json y el 2.json.
+
+Si se habilita el scrolling cada vez que se se llegue al final de la ventana cargara las nuevas noticias (hasta 2 veces). Una vez realizadas las 2 cargas el boton de más noticias desaparecerá.
 
 ### Validación de los ficheros con: ###
 	* https://validator.w3.org/nu
@@ -69,7 +76,6 @@ Hay un elemento <NAV> que contiene la barra de navegación (no apunta a enlaces 
 	* https://jigsaw.w3.org/css-validator/
 
 ### Otros ###
-
 Las noticias han sido obtenidas de los siguientes enlaces:
 
   * https://www.vidaextra.com/fps/todo-lo-que-necesitas-saber-sobre-star-wars-battlefront-2
@@ -82,4 +88,3 @@ Las noticias han sido obtenidas de los siguientes enlaces:
   * http://www.lacapital.com.ar/escenario/un-nuevo-comienzo-star-wars-pero-la-princesa-leia-n1392567.html
   * http://www.culturaocio.com/cine/noticia-director-ultimos-jedi-pidio-cambiar-final-despertar-fuerza-20170505120105.html
   * http://computerhoy.com/noticias/zona-gaming/star-wars-battlefront-2-tendra-modo-campana-todos-detalles-57876
-  * 
