@@ -44,11 +44,23 @@ Por lo que el diseño deriva al siguiente y se establece como el final:
 
 Una vez ideada la maquetación la genero con visio para tener un documento gráfico.
 
+#### Diseño de escritorio ###
+El banner para pantallas de 768px a 922px tendra una dimensión de 200px de ancho. para pantallas superiores a 922px el ancho del banner será de 300px.
+
 ![Imagen diseño Desktop](doc/DiseñoDesk.png)
 
-![Imagen diseño movil](doc/DiseñoMovScrollnot.png)
+#### Diseño de movil ###
+Cuando el scrolling no se encuentre en el top de la ventana no se mostrara la publicidad. El menú aparece contraido en un boton y se visualizara pulsando sobre él.
+
+![Imagen diseño movil](doc/DiseñoMov.png)
+
+Cuando el scrolling esté en el top se visualizará el banner de publicidad con una altura de 90px. Se ocultara cuando se haga scrolling hacia abajo y cuando se vuelva al top de la ventana se volverá a visualizar.
 
 ![Imagen diseño movil con banner](doc/DiseñoMoovScrolling.png)
+
+### Elementos del código ###
+
+Hay un elemento <NAV> que contiene la barra de navegación (no apunta a enlaces externos, solo el logo) y en el se visualiza el logo (apunta a news.html) y los elementos de las noticias. El elemento sobre el que estemos quedará visualizado en la barra. En el diseño en visio del desktop lo ponedoms visualizar
 
 ### Validación de los ficheros con: ###
 	* https://validator.w3.org/nu
