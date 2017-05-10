@@ -67,7 +67,10 @@ Comprobado que si se tiene un bloqueador de publididad (tipo AdBlock) el element
 
 Se habilita un elemento button para Activar el scrolling (tambien desactivar) y cargar más noticias. Realizará 2 cargas. El 1.json y el 2.json.
 
-Si se habilita el scrolling cada vez que se se llegue al final de la ventana cargara las nuevas noticias (hasta 2 veces). Una vez realizadas las 2 cargas el boton de más noticias desaparecerá.
+Si se habilita el scrolling cada vez que se se llegue al final de la ventana cargara las nuevas noticias (hasta 2 veces). Una vez realizadas las 2 cargas el boton de más noticias desaparecerá. Se visualizara también en el contenedor de stats el número de noticicas mostradas.
+
+### Inicialización ###
+Por defecto se cargan 3 noticias. Las 2 primeras enlazan a news1.xtml y news2.html.
 
 ### Validación de los ficheros con: ###
 	* https://validator.w3.org/nu
